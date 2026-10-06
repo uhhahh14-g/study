@@ -1,7 +1,6 @@
-# 1. 버전관리
+# git
 
-> 원문: `../CLT-tools-guide.md`에서 분리
-
+> 대분류: `01-버전관리` / 분산 버전관리. 기록·브랜치·동기화와 서버 측 전송 처리
 
 ### git
 **개요**
@@ -72,3 +71,4 @@ git init --bare /tmp/보내기연습.git
 git-upload-pack /tmp/보내기연습.git
 git clone --depth 1 file:///tmp/보내기연습.git /tmp/받기복제
 ```
+
